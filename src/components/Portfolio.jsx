@@ -1,11 +1,9 @@
 import React from 'react'
 import bonapp from '../assets/portfolio/bonapp.png'
 import nf from '../assets/portfolio/NF.png'
-import installNode from '../assets/portfolio/installNode.jpg'
 import stay from '../assets/portfolio/stayOnTask.png'
 import sweeper from '../assets/portfolio/sweeper.png'
 import stick from '../assets/portfolio/stick.png'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
 
 const Portfolio = () => {
 
@@ -35,11 +33,6 @@ const Portfolio = () => {
       src: stick,
       href: 'https://www.dropbox.com/scl/fi/xiwaw7kp3s23i6jav2n6p/annotated-Final-20Design-20Report-20-282-29.docx.pdf?rlkey=q0ctfuzdvhj9w43qh32i1k7un&dl=0',
     },
-    // {
-    //   id: 6,
-    //   src: reactWeather,
-    //   href: 'https://linkedin.com/in/camryn-cimber',
-    // }
   ];
 
   const handleCodeButtonClick = (link) => {
@@ -69,7 +62,7 @@ const Portfolio = () => {
                     {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button> */}
                     <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => handleCodeButtonClick(href)}>Learn More</button>
                </div>
-              <a href={href}></a>
+              <a href={href}className="portfolio-link"></a>
            </div>
           ))}
 
