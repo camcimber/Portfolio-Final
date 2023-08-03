@@ -13,7 +13,7 @@ export const About = () => {
             </div>
 
             <p className="text-xl py-6">
-            My name is Camryn and I am currently a computer science major with a minor in digital arts and sciences at the University of Florida. I am a problem solver who appreciates the challenges of tech and wishes to contribute in growing my field of software engineering. I am the kind of a person who has to succeed because I am afraid to fail. As someone who has experienced the effects of substance abuse and addiction in my household, I have felt a pressure to make the the right choices - to be a positive reflection of my family. I believe that only through carefully analyzing the outcomes of our choices can we make better decisions and find the most effective solutions. To honor those I’ve lost and to support those I love, I am dedicated to improving both myself and my community - to be an example of success.             </p>
+            Hi! My name is Camryn Cimber, and I am a student with a passion for technology. I enjoy solving complex problems and collaborating in teams to find the most optimal solutions. Being a lifelong learner, I am constantly exploring different fields and concepts in the tech world to discover my true passion.</p>
 
             <br />
 
